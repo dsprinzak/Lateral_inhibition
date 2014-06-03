@@ -15,7 +15,7 @@
 
 function [yout,tout,params,F] = transcis_multicell_LI(params)
 
-% transcis_multicell_LI simulates simulates trans-annihilation with cis-inactivation 
+% transcis_multicell_LI simulates trans-annihilation with cis-inactivation 
 % in a hexagonal lattice. The structure params contains the model parameters 
 % of the system. TOUT is a vector containing the time points of the solution 
 % between 0 and Tmax. YOUT is a matrix containing the numerical solution for 
