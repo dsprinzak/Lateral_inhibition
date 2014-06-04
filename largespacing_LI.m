@@ -125,7 +125,7 @@ for i=1:2
     hold on
     plot(tout,yout(:,k+i),'-b','linewidth',2) % plot repressor levels
     title(['cell #',num2str(i)])
-    xlabel('normalized time'); ylabel('normalized concentration')
+    xlabel('time [a.u]'); ylabel('concentration [a.u]')
     legend('d','r')
 end
 
