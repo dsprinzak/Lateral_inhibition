@@ -60,16 +60,16 @@ close(h)
 figure(23)
 imagesc(log10(betaD),log10(betaR),log10(Dmax./Dmin));
 set(gca,'YDir','normal')
-xlabel('log(\beta_d)','fontsize',14);
-ylabel('log(\beta_r)','fontsize',14);
+xlabel('log(\beta_r)','fontsize',14);
+ylabel('log(\beta_d)','fontsize',14);
 title('log(d_{max}/d_{min})','fontsize',14)
 colorbar
 
 figure(24)
 imagesc(log10(betaD),log10(betaR),T);
 set(gca,'YDir','normal')
-xlabel('log(\beta_d)','fontsize',14);
-ylabel('log(\beta_r)','fontsize',14);
+xlabel('log(\beta_r)','fontsize',14);
+ylabel('log(\beta_d)','fontsize',14);
 title('Time for patterning [normalized time]','fontsize',14)
 colorbar
 
